@@ -26,7 +26,7 @@ namespace TestProject1
             await page.Locator("//input[@id='Email']").FillAsync("patelbhu31@gmail.com");
             await page.Locator("//input[@value='Register']").ClickAsync();
 
-            await page.WaitForTimeoutAsync(7000);
+            await page.WaitForTimeoutAsync(2000);
             await context.CloseAsync();
 
 
